@@ -7,6 +7,47 @@ nav.navbar.navbar-default {
     margin-bottom: 0px !important;
 }
 
+ul.nav.navbar-nav a {
+    color: #fff;
+    float: right;
+}
+
+ul.nav.navbar-nav.navbar-right {
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.rigt-side ul.nav.navbar-nav.navbar-right li a:hover {
+    border-bottom: 1px solid #000;
+    background: #fff;
+}
+
+.rigt-side ul.nav.navbar-nav.navbar-right li a {
+    color: #000;
+		padding: 13px 19px 7px 19px;
+    margin: 0 20px;
+    font-size: 17px;
+}
+
+a.navbar-brand {
+    padding: 12px 105px;
+}
+
+section#navigasi .navbar {
+    margin-bottom: 0px !important;
+}
+
+.navbar-brand>img {
+    display: block;
+    width: 40px;
+    height: auto;
+		position: relative;
+    left: 40px;
+    top: -9px;
+}
+
+/* Nav -----------------*/
+
 #wrapperHeader.header {
   width: 100%;
 }
@@ -33,6 +74,7 @@ ul.nav.navbar-nav.text-right li a {
     color: #f8f8f8;
     background: url(../gambar/banner2.jpg) no-repeat center center;
     background-size: cover;
+		background-attachment: fixed;
 }
 
 .intro-message {
@@ -47,7 +89,7 @@ ul.nav.navbar-nav.text-right li a {
     font-size: 5em;
 }
 
-.intro-divider {
+.intro-mylink {
     width: 400px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
