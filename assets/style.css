@@ -103,3 +103,48 @@ ul.nav.navbar-nav.text-right li a {
   margin: 0 auto;
   padding: 10px 0;
 }
+
+/* content */
+
+.col-md-8.image-custom-left img {
+    width: 100%;
+}
+.col-md-4.image-custom-right img {
+	width: 100%;
+}
+section#about {
+    margin: 20px 0;
+}
+
+section#skills {
+    margin: 20px 0;
+}
+
+section#content-satu {
+    margin: 20px 0;
+}
+li.contact {
+    border: 1px solid #000;
+    width: 120px;
+    height: 40px;
+    margin-top: 3px;
+    /* box-shadow: 1px 1px 7px -6px #888; */
+}
+
+li.contact a {
+    margin: -3px 13px !important;
+}
+
+.container.center-custom {
+    text-align: left;
+    padding: 0 150px;
+}
+
+.author p {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.image img {
+    width: 100%;
+}

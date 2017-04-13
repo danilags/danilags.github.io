@@ -3,7 +3,7 @@
 	padding: 0px;
 }
 body {
-  
+
     background: url("https://images.unsplash.com/photo-1462917882517-e150004895fa?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
@@ -55,14 +55,14 @@ li {
 
 .comment {
     float: right;
-    padding: 50px 52px; 
+    padding: 50px 52px;
     background-image: -webkit-linear-gradient(#b3fe2b, #edfe0a);
     background-image: -o-linear-gradient(#b3fe2b, #edfe0a);
     background-image: linear-gradient(#b3fe2b, #edfe0a);
     border-radius: 30px 0px 0px 30px;
     box-shadow: -10px 2px 0px #333333;
     font-family: courier new;
-    color: #b22222;   
+    color: #b22222;
 }
 
 h1 {
@@ -97,7 +97,7 @@ h3 {
 
 .custom-name label {
     display: block;
-}   
+}
 
 textarea {
     width: 200px;
