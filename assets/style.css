@@ -146,5 +146,25 @@ li.contact a {
 }
 
 .image img {
-    width: 100%;
+    max-width: 100%;
+		height: auto;
+}
+
+.col-md-3.custom-pembagi {
+    text-align: center;
+}
+
+.col-md-4.image-custom-right img {
+    max-width: 100%;
+    height: auto;
+}
+
+.col-md-8.image-custom-left img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image {
+    height: 280px;
+    padding: 25px;
 }
