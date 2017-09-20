@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0px;
+}
+body {
+
+    background: url("https://images.unsplash.com/photo-1462917882517-e150004895fa?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: 0px;
+}
+
+.header {
+    background: #ff0;
+    padding: 5px 100px;
+    border: 10px dotted #000
+}
+
+.body {
+    padding: 50px 65px;
+    margin: 50px 45px;
+    background: #fff;
+    border: 2px solid #000;
+}
+
+.custom-foto img {
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    border: 1px solid #000;
+    margin: 5px;
+}
+
+.custom-foto {
+    text-align: center;
+    margin: 0px;
+}
+
+p.nama {
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+p.another-judul {
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+li {
+    margin: 0 40px;
+}
+
+.comment {
+    float: right;
+    padding: 50px 52px;
+    background-image: -webkit-linear-gradient(#b3fe2b, #edfe0a);
+    background-image: -o-linear-gradient(#b3fe2b, #edfe0a);
+    background-image: linear-gradient(#b3fe2b, #edfe0a);
+    border-radius: 30px 0px 0px 30px;
+    box-shadow: -10px 2px 0px #333333;
+    font-family: courier new;
+    color: #b22222;
+}
+
+h1 {
+    font-family: 'Varela Round', sans-serif;
+    color: #dc143c;
+    text-transform: uppercase;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 8px;
+}
+
+h2 {
+	color: #dc143c;
+    line-height: 48px;
+    margin-top: 60px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    font-style: italic;
+    display: table;
+    margin: 20px auto;
+}
+
+h3 {
+    letter-spacing: 5px;
+    font-family: courier new;
+    color: #b22222;
+    padding: 15px 0;
+}
+
+.custom-name label {
+    display: block;
+}
+
+textarea {
+    width: 200px;
+    height: 120px;
+    background: #fefefe;
+}
+
+input[type="submit"] {
+    padding: 3px 9px;
+    background: #fefefe;
+}
+
+th {
+    padding: 5px 10px;
+    border: 1px solid #000;
+}
+
+td {
+    border: 1px solid #000;
+    text-align: center;
+    font-weight: bold;
+    color: #dc143c;
+    font-size: 28px;
+}
